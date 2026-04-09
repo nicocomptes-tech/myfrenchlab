@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My French Lab</title>
+  <link rel="canonical" href="https://www.myfrenchlab.fr/" />
+  <link rel="alternate" hreflang="fr" href="https://www.myfrenchlab.fr/fr/index.html" />
+  <link rel="alternate" hreflang="en" href="https://www.myfrenchlab.fr/en/index.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.myfrenchlab.fr/" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      background: #fafafa;
+    }
+  </style>
+  <script>
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang.startsWith('fr')) {
+      window.location.replace('./fr/index.html');
+    } else {
+      window.location.replace('./en/index.html');
+    }
+  </script>
+</head>
+<body>
+  <div style="text-align: center; margin-top: 50px;">
+    <p>Loading your experience...</p>
+    <p><a href="./en/index.html">English</a> | <a href="./fr/index.html">Français</a></p>
+  </div>
+</body>
+</html>
