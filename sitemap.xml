@@ -24,26 +24,4 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.myfrenchlab.fr/fr/index.html"/>
   </url>
 
-  <!-- Mentions Légales - Français -->
-  <url>
-    <loc>https://www.myfrenchlab.fr/fr/mentions-legales.html</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.myfrenchlab.fr/fr/mentions-legales.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.myfrenchlab.fr/en/legal-notice.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.myfrenchlab.fr/fr/mentions-legales.html"/>
-  </url>
-
-  <!-- Legal Notice - English -->
-  <url>
-    <loc>https://www.myfrenchlab.fr/en/legal-notice.html</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.myfrenchlab.fr/fr/mentions-legales.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.myfrenchlab.fr/en/legal-notice.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.myfrenchlab.fr/fr/mentions-legales.html"/>
-  </url>
-
 </urlset>
